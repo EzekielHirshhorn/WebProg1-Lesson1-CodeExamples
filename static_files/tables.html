@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tables</title>
+</head>
+<body>
+<h3>Tables</h3>
+<!--
+Note that use of the 'border' attribute of a table is discouraged, instead CSS attribute of the same name
+ ('border') should be used. The results are somewhat different though. In this course we will use bootstrap for
+ all designing purposes, including tables design.
+ -->
+<table border="1">
+    <thead>This is the table's header</thead>
+
+    <tbody>
+    <tr>
+        <th>Column 1 Title</th>
+        <th>Column 2 Title</th>
+        <th rowspan="3">Column 3</th>
+    </tr>
+    <tr>
+        <td>Column 1 content</td>
+        <td>Column 2 content</td>
+    </tr>
+    <tr>
+        <td colspan="2">This cell takes both columns</td>
+    </tr>
+    </tbody>
+
+    <tfoot> This is the table's footer</tfoot>
+</table>
+</body>
+</html>

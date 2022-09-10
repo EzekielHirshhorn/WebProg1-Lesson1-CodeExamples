@@ -1,0 +1,4 @@
+This is a simple text file, not an html file.
+If we try to use html elements they will be
+displayed in the browser:
+<div>This is a div</div>

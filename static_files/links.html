@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Links</title>
+</head>
+<body>
+<h3 id="heading">Links: The Anchor Tag &lang;a&rang;</h3>
+
+<ul>
+    <li>
+        Here is a link to an element on the bottom of this page: <a href="#bottom">bottom</a>
+    </li>
+    <li>Here is a link to a different website, on a different domain: <a href="https://hac.ac.il/">HAC</a></li>
+    <li>
+        Here is a link to a different page on the same website as this page:
+        <a href="/static_files/file_types.html">file types</a>.
+        This link is relative to the root directory of this website, because it begins with a '/'.
+    </li>
+    <li>
+        Here is a link to a different page on the same website as this page:
+        <a href="file_types.html">file types</a>.
+        This link is relative to the location of the current page, because it does not begin with a '/'.
+    </li>
+    <li>
+        Here is clickable image made using an anchor tag:
+        <div>
+            <a href="https://www.w3schools.com/html/">
+                <img src="images/html.png" alt="An image of the HTML 5 logo"/>
+            </a>
+        </div>
+        The linked website is a highly recommended source of information for you to use in this course.
+    </li>
+</ul>
+<div id="bottom" style="padding: 3em;">
+    <strong>
+        This &lang;div&rang; element is at the bottom of the page. Here is a link to the heading element
+        at the top of the page: <a href="#heading">heading</a>.
+    </strong>
+</div>
+</body>
+</html>
